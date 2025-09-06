@@ -26,8 +26,8 @@ El despliegue del contrato inteligente implicó los siguientes costos en la red 
 * **Costo por unidad de gas utilizado en la transacción:** `0.01994548 Gwei (0.00000000001994548 ETH)`
 * **Costo Estimado en ETH:** `0.00000583712450392 ETH`
 * **Enlace a la Transacción en Etherscan:**
-    `https://sepolia.etherscan.io/tx/0xfc54c8876add7e2e0e130b9aadf0077db1ea62921648fbbd5b160259562356d4`
+   [Transaccion](https://sepolia.etherscan.io/tx/0xfc54c8876add7e2e0e130b9aadf0077db1ea62921648fbbd5b160259562356d4)
 
 
 ### Adicional ###
-* **Enlace al Contrato en Etherscan:** `https://sepolia.etherscan.io/address/0x13e792882b037cbdcab96d481f7dc27249b40c65#readProxyContract`
+* **Enlace al Contrato en Etherscan:** [Contrato](https://sepolia.etherscan.io/address/0x13e792882b037cbdcab96d481f7dc27249b40c65#readProxyContract)
