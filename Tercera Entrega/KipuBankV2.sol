@@ -1,19 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.30;
 
-/**
- * KipuBankV2_Improved_Normalized
- * - Igual funcionalidad que KipuBankV2_Improved pero con nombres de campos y parámetros
- *   normalizados a la convención explícita (Wei / Usd18) para evitar ambigüedad.
- *
- * Convenciones aplicadas:
- * - Saldos/valores ETH en wei usan sufijo `Wei`.
- * - Valores USD usan escala 1e18 y sufijo `Usd18`.
- * - token decimals mantienen `tokenDecimals`.
- *
- * Import: OpenZeppelin 4.9.3 + Chainlink v1.11.0 (raw URLs para Remix).
- */
-
 import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v4.9.3/contracts/access/Ownable.sol";
 import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v4.9.3/contracts/access/AccessControl.sol";
 import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v4.9.3/contracts/security/Pausable.sol";
