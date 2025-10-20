@@ -4,11 +4,21 @@
 
 **Licencia:** MIT
 
-## 📝 Resumen Ejecutivo
+## 📝 Resumen
 
 **KipuBankV2** es una **refactorización arquitectónica** y **extensión funcional** del contrato `KipuBank` inicial. Este proyecto lo transforma de una simple bóveda de Ether a una plataforma bancaria descentralizada con **soporte multi-token (ETH + ERC20)** y mecanismos avanzados de gestión de riesgos, desarrollado en **Solidity versión 0.8.30**.
 
 La característica central es la **Contabilidad Unificada en USD18**, que utiliza Oráculos de Precios de **Chainlink** para estandarizar la valoración de todos los activos, aplicando límites dinámicos (globales y diarios por usuario) en USD. Incorpora un modelo de **Control de Acceso basado en Roles** para separar las responsabilidades administrativas, de riesgo y operacionales.
+
+---
+## ✨ Características Principales
+
+* **Soporte Multi-Activo:** Permite el depósito y retiro de **ETH** y tokens **ERC-20** registrados, permitiendo un banco versátil.
+* **Gestión de Riesgo en USD:** Límite de capacidad (**BankCap**) y límite de retiro diario por usuario definidos y controlados en **USD (18 decimales)**, desacoplando el riesgo de la volatilidad cripto.
+* **Oráculos de Precios:** Integración con **Chainlink Data Feeds** para valoración de activos en tiempo real y protección crítica contra precios obsoletos (**`StalePrice`**).
+* **Seguridad Modular:** Utiliza módulos de **OpenZeppelin** (`AccessControl`, `ReentrancyGuard`, `Pausable`, `SafeERC20`) para máxima robustez y segregación de funciones.
+* **Eficiencia:** Soporte para **transferencias internas** entre usuarios, optimizando el gas al evitar interacciones externas innecesarias.
+* **Auditoría:** Uso de **Custom Errors** (ahorro de gas en reversión) y **Eventos detallados** (incluyendo valor en USD) para facilitar la trazabilidad y la contabilidad *off-chain*.
 
 ---
 ## 🚀 Mejoras Arquitectónicas y Funcionales Clave
