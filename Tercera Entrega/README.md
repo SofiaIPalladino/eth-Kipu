@@ -124,5 +124,9 @@ El proyecto fue desplegado en una Testnet utilizando **Remix IDE** y el proveedo
 
 ## ✅ Entregables Finales
 
-2.  **Dirección del Contrato Desplegado (Testnet):** **`0x21651aB961b03E0E6d2142c90f83Ef5eec732aCD`**
-3.  **. Enlace de Verificación en Etherscan (Sepolia):** `[https://sepolia.etherscan.io/address/0x21651aB961b03E0E6d2142c90f83Ef5eec732aCD]`
+1.  **Dirección del Contrato KipuBankV2 Desplegado (Testnet):** **`0x21651aB961b03E0E6d2142c90f83Ef5eec732aCD`**
+2.  **Dirección del Contrato MockERC20 Desplegado (Testnet):** **`0xc4f5CD4431e2993D3b2A22Cb3D41C453ca3E85e6`**
+3.  **Dirección del Contrato MockV3Aggregator Desplegado (Testnet):** **`0x4DA3b837215c9fc10e7AF9ce97c92557C22a605B`**
+4.  **Enlace de Verficiación en Etherscan de KipuBankV2 (Sepolia):**`[https://sepolia.etherscan.io/address/0xc4f5CD4431e2993D3b2A22Cb3D41C453ca3E85e6#code]`
+5.  **Enlace de Verificación en Etherscan de MockERC20 (Sepolia):** `[https://sepolia.etherscan.io/address/0x21651aB961b03E0E6d2142c90f83Ef5eec732aCD#code]`
+6.   **Enlace de Verficiación en Etherscan de MockV3Aggregator (Sepolia):**`[https://sepolia.etherscan.io/address/0x4DA3b837215c9fc10e7AF9ce97c92557C22a605B#code]`
