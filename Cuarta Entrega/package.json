@@ -1,0 +1,19 @@
+{
+  "name": "kipubank",
+  "version": "1.0.0",
+  "description": "KipuBankV3 project (mocks + tests + deployment scripts)",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:local": "npx hardhat run --network localhost scripts/deploy-mocks-and-kipu.js",
+    "deploy:sepolia": "npx hardhat run --network sepolia scripts/deploy-mocks-and-kipu.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
