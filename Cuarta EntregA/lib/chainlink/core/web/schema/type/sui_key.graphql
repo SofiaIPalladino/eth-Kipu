@@ -1,8 +1,0 @@
-type SuiKey {
-	id: ID!
-	account: String!
-}
-
-type SuiKeysPayload {
-	results: [SuiKey!]!
-}

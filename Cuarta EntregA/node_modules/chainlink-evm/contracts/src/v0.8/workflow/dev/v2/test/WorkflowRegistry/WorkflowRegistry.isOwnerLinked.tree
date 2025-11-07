@@ -1,5 +1,0 @@
-WorkflowRegistry.isOwnerLinked
-├── When the specified owner is linked
-│   └── It should return true
-└── When the specified owner has not linked
-    └── It should return false

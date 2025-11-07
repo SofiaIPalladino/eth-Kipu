@@ -1,5 +1,0 @@
-WorkflowRegistry.isAllowedSigner
-├── When the signer address has never been configured
-│   └── It should return false
-└── When the signer is configured
-    └── It should return false
