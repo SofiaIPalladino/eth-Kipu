@@ -107,8 +107,8 @@ Requisitos
 
 Instalación local
 ```bash
-git clone <tu-repo-url>
-cd <tu-repo>
+git clone https://github.com/SofiaIPalladino/eth-Kipu.git
+cd "eth-Kipu/Cuarta Entrega"
 npm install
 npm run compile
 ```
