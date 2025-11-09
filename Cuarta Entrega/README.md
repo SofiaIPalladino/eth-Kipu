@@ -1,5 +1,7 @@
 # KipuBankV3 — Banco DeFi con swaps automáticos a USDC 🏦
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  [![Solidity 0.8.30](https://img.shields.io/badge/Solidity-0.8.30-blue)]()  [![Tests](https://img.shields.io/badge/tests-passing-brightgreen)]()  
+
 Última actualización: 2025-11-09  
 Autor: Sofía Isabella Palladino (SofiaIPalladino)  
 Licencia: MIT
